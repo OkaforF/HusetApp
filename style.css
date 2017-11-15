@@ -1,0 +1,202 @@
+/*pink- #fbe5f0;
+        grey-#9d9c9c
+  red-#d20729
+        blue-#dff1fd
+        palegreen-#e1eed7
+        purple-#24185c
+        darkgreen-#005924
+        black-#1c1c1b
+
+        */
+@media
+only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (-o-min-device-pixel-ratio: 3/2),
+
+only screen and (min-device-pixel-ratio: 1.5){
+
+  html,
+  body{
+    width:100%;
+    overflow-x:hidden;
+  }
+
+}
+
+
+  @font-face{
+            font-family:myfont;
+            src:url(avenir.ttc);
+
+        }
+
+
+
+body{
+    margin:0;
+    background-color: #1c1c1b;
+    color:#fbe5f0;
+    font-family:myfont;
+
+
+}
+
+section{
+ width:100vw;
+    display:flex;
+    flex-direction:column;
+
+}
+
+article{
+    border-bottom:solid 0.5px #9d9c9c;
+  margin:5px;
+
+}
+
+
+.event{
+    margin:0 3vw 0 3vw;
+}
+.siimg, .mimg{
+    width:100%;
+    height:auto;
+}
+
+section a {
+    color:red;
+}
+header{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+     width:100vw;
+    position:fixed;
+    top:0px;
+    background-color:#1c1c1b;
+
+}
+header a{
+    color:#fbe5f0;
+    text-decoration: none;
+}
+#event-header{
+     display:flex;
+    flex-direction: row;
+    justify-content: center;
+        width:100%;
+    position:fixed;
+    top:0px;
+}
+  .logo{
+            height:80px;
+      padding:20px;
+
+
+}
+.back-arrow{
+    height:15px;
+    transform: rotate(90deg);
+      padding-top:90px;
+}
+  .main-menu{
+      text-align: center;
+            display:flex;
+            flex-direction:column;
+
+
+
+
+}
+
+
+section{
+    margin-top:27vh;;
+}
+
+#single{
+        margin-top:150px;
+}
+
+#tag-menu{
+
+display:flex;
+flex-direction:column;
+    text-transform: uppercase;
+
+
+text-align: center;
+
+
+}
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+
+
+.dropdown-content {
+    display: block;
+
+
+}
+
+.dropdown-content a {
+
+
+    display: block;
+    text-decoration: none;
+}
+.dropdown:focus .dropdown-content:focus {
+    display: block;
+}
+
+.men1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+
+}
+.men1 a{
+    text-decoration: none;
+
+
+    margin-top: 2px;
+    width: 60%;
+    text-align: center;
+}
+.men2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+
+}
+.men2 a{
+    text-decoration: none;
+
+
+ß
+
+
+}
+.hide{
+    display: none;
+}
+.show {display: block;}
+
+
+.nav-title{
+    padding:3px;
+    margin:2px;
+      background-color:#9d9c9c;
+    border-left:3vw solid #1c1c1b;
+     border-right:3vw solid #1c1c1b;
+}
+
+.line-space-box{
+    line-height: 0.7em;
+}
